@@ -1,4 +1,4 @@
-const host = 'https://flynt.test'
+const host = 'http://localhost:10038/'
 const dest = './dist'
 
 function getCopyConfig (source) {
@@ -53,7 +53,7 @@ module.exports = {
       './Components/**/*.{php,twig}'
     ],
     watch: true,
-    https: true
+    https: false
   },
   webpackDevMiddleware: {
     stats: false,
